@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
+//1st approach without set
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -56,6 +56,7 @@ public:
 };
 
 
+//2nd approach using set
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
